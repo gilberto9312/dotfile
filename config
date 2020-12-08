@@ -1,0 +1,15 @@
+#1ra cuenta
+Host github-personal
+	HostName github.com
+	User git
+	addKeysToAgent yes
+	IdentityFile path/private 
+	IdentitiesOnly yes
+#2da cuenta
+Host github.com
+	HostName github.com
+	User git
+	AddKeysToAgent yes
+	IdentityFile	path/private
+    IdentitiesOnly yes
+
