@@ -26,3 +26,6 @@
 * CTRL k      = navegar arriba
 * SHIFT 3      = resaltar en todo el documento la palabra marcada
  
+> una base original de [vim-bootstrap](https://vim-bootstrap.com/)
+> luego fui personalizando 
+> PD acepto PR para Lenguajees como PHP o PHYTHON
