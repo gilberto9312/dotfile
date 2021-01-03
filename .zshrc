@@ -98,7 +98,17 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#variables para android
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+
+######
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Esto carga nvm
 
 #mover a la carpeta interactivo 
 
