@@ -14,7 +14,7 @@ set sw=2
 set laststatus=2
 " set relativenumber
 set noshowmode
-
+set undofile " permite deshacer y rehacer cambios aun cuando ya ha sido cerrado
 call plug#begin('~/.vim/plugged')
 
 "temas
